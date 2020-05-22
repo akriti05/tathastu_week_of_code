@@ -1,0 +1,20 @@
+p1=int(input("run scored by player1 in 60 balls:"))
+p2=int(input("run scored by player2 in 60 balls:"))
+p3=int(input("run scored by player3 in 60 balls:"))
+#strike rate
+strike_rate1=p1*100/60
+strike_rate2=p2*100/60
+strike_rate3=p3*100/60
+
+
+print("the strike rate of 1st player is:",strike_rate1)
+print("the strike rate of 2nd player is:",strike_rate2)
+print("the strike rate of 3rd player is:",strike_rate3)
+
+print("maximum number of sixes:",p2//6)
+print("maximum number of sixes:",p2//6)
+print("maximum number of sixes:",p3//6)
+
+print("the run scored in 60 more balls:",p1*2)
+print("the run scored in 60 more balls:", p2*2)
+print("the run scored in 60 more balls:",p3*3)
